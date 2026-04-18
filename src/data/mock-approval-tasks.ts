@@ -10,7 +10,7 @@ export const mockApprovalTasks: ApprovalTask[] = [
     submittedAt: "2026-04-17 09:15",
     riskLevel: "低风险",
     aiSuggestion: "建议通过",
-    status: "待初审",
+    status: "初审中",
     priority: "普通"
   },
   {
@@ -22,7 +22,7 @@ export const mockApprovalTasks: ApprovalTask[] = [
     submittedAt: "2026-04-17 09:40",
     riskLevel: "中风险",
     aiSuggestion: "建议人工复核",
-    status: "待终审",
+    status: "复核中",
     priority: "加急"
   },
   {
@@ -34,7 +34,7 @@ export const mockApprovalTasks: ApprovalTask[] = [
     submittedAt: "2026-04-17 10:05",
     riskLevel: "高风险",
     aiSuggestion: "建议拒绝",
-    status: "已退回补件",
+    status: "已打回",
     priority: "普通"
   },
   {
@@ -46,7 +46,7 @@ export const mockApprovalTasks: ApprovalTask[] = [
     submittedAt: "2026-04-17 10:20",
     riskLevel: "中风险",
     aiSuggestion: "建议人工复核",
-    status: "待初审",
+    status: "初审中",
     priority: "普通"
   }
 ];
