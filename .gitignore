@@ -1,8 +1,16 @@
-node_modules/
+# Next.js
 .next/
-dist/
+out/
 build/
-.env
-.env.local
-coverage/
-*.log
+
+# Node modules
+node_modules/
+
+# Screenshots & assets (if you don't want them in repo)
+screenshots/
+*.png
+*.jpeg
+*.jpg
+
+# Env files
+.env*
